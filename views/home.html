@@ -1,0 +1,147 @@
+<div id="menu-bar">
+    <img ng-src={{navlogo.src}}>
+<ul>
+   <li><a href="#!login">Log in</a></li>
+   <li><a href="#!home">Home</a></li>
+</ul>
+</div>
+
+
+<div class="container-fluid">
+    <div class="banner">
+        <div class="row">
+            <div class="col-md-12 bannercol">
+               
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+	<center>
+		<div class="article">
+			<h1>Shop</h1>
+			<p>Nigeria's #1 online customer service store,</p>
+			<p>life is easy with spot and shop, whereever you are finding items you desire is easy.</p>	
+		</div>
+	</center>
+</div>
+
+<div class="container">
+	<div class="near">
+		<center><h1>Nearby Stores</h1></center>
+		<center><img src="img/g104.png"></center>
+	</div>
+</div>
+
+
+
+
+		<p>{{banner}}</p>
+		<ul class="list">
+			<li>
+				<div class="container storetab">
+					<div class="row">
+						<div class="col-md-12 col-xs-12 firstcol">
+							<div class="col-md-4 col-xs-6 seccol"  ng-repeat="store in stores | orderBy:'name' | filter: search">
+								<div class="image">
+									<img ng-src="{{store.src}}">
+								</div>
+								<center><h5>{{store.name}}</h5></center> 
+									<center><md-button  class="md-raised md-primary">{{title}}</md-button></center>	
+							</div>
+						</div>
+					</div>
+				</div>			
+			</li>
+		</ul>
+</div>
+
+<div class="container-fluid">
+		<div class="row">
+			<diiv class="col-md-12 gadget">
+				<div class="col-md-3 gadgetcol">
+					<div class="header-img">
+					<center><img src="img/delivery.png"></center>	
+					</div>
+					<div class="img-content">
+						<h4>TRACKING DELIVERY</h4>
+						<h2>fast and versitle of tracking goods, ordered for</h2>
+					</div>
+				</div>
+	
+				<div class="col-md-3 gadgetcol">
+						<div class="header-img">
+						<center><img src="img/g4149.png"></center>	
+						</div>
+						<div class="img-content">
+							<h4>TRACKING DELIVERY</h4>
+							<h2>fast and versitle of tracking goods, ordered for</h2>
+						</div>
+				</div>
+	
+				<div class="col-md-3 gadgetcol">
+						<div class="header-img">
+						<center><img src="img/g4471.png"></center>	
+						</div>
+						<div class="img-content">
+							<h4>TRACKING DELIVERY</h4>
+							<h2>fast and versitle of tracking goods, ordered for</h2>
+						</div>
+				</div>
+	
+				<div class="col-md-3 gadgetcol">
+						<div class="header-img">
+						<center><img src="img/surface1.png"></center>	
+						</div>
+						<div class="img-content">
+							<h4>TRACKING DELIVERY</h4>
+							<h2>fast and versitle of tracking goods, ordered for</h2>
+						</div>
+				</div>
+			</diiv>
+		</div>
+</div>
+
+<div class="footer">
+    <div class="footyback">
+            <div class="firstfoot">
+                <a href=""><img src="img/g319.png"></a>
+                <a href=""><img src="img/g430.png"></a>
+                <a href=""><img src="img/g531.png"></a>
+
+            </div>
+        <div class="container-fluid">
+                <div class="row">
+                        <div class="col-md-12 footcol">
+                            <div class="col-md-3 footcol">
+                                
+                                    <div class="footheader">
+                                        <h4>ABOUT US</h4>
+                                    </div>
+                               
+                                    <div class="footcontent">
+                                        <a href=""><h5>About</h5></a>
+                                        <a href=""><h5>About Us</h5></a>
+                                        <a href=""><h5>The Team</h5></a>
+                                    </div>
+                            </div>
+                            <div class="col-md-3 footcol">
+                                    <div class="footheader">
+                                        <h4>HELP AND INFORMATION</h4>
+                                    </div>
+
+                                    <div class="footcontent">
+                                        <a href=""><h5>Help</h5></a>
+                                        <a href=""><h5>Delivery and Returns</h5></a>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+        </div>
+        
+    </div>
+</div>
+		
+
+    

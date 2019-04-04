@@ -1,0 +1,211 @@
+#menu-bar {
+    padding: 10px;
+    color: aliceblue;
+    background-color: rgb(216, 86, 86);
+}
+
+#menu-bar h3    {
+    font-size: 20px;
+    font-weight: normal;
+    display: inline-block;
+    
+}
+
+#menu-bar ul{
+    float: right;
+    list-style-type: none;
+    padding: 0;
+    margin: 6px 0;
+}
+
+#menu-bar li{
+    float: right;
+    margin-left: 20px;
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+.seller {
+    border: 1px solid red;
+}
+  
+#menu-bar a{
+    color: #fff
+}
+
+.article h1, p  {
+    font-family: ocraext;
+    text-shadow: 2px 2px 4px #000000;
+    color: #ffff;
+    font-size: 20px;
+}
+
+.article h1 {
+    font-size: 30px;
+}
+
+.storetab   {
+    margin-top: 30px;
+}
+
+.image img   {
+    height: 160px;
+    width:90%;
+    max-width: 90%;
+    max-height: 160px; 
+    cursor: pointer;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    margin: 10px;
+    
+}   
+
+.near   {
+    font-family: ocraext;
+    margin-top: 40px;
+}
+
+
+.inputfield {
+    margin-top: 30px;
+    border-radius: 90px;
+}
+
+.footyback  {
+    background-color: rgb(216, 86, 86);
+    color: #fff;
+}
+
+
+
+.img-content h4 {
+    text-align: center;
+    font-weight: bold;
+    font-family: ocraext;
+}
+
+.img-content h2 {
+    font-size: 15px;
+    text-align: center;
+}
+
+.gadget {
+    background-color: #979797;
+    margin-top: 20px;
+}
+
+.gadgetcol  {
+    padding-top: 15px;
+}
+
+.list   {
+    list-style-type: none;
+}
+
+.remove{
+    float: right;
+    padding: 5px;
+    background: crimson;
+    width: 18px;
+    text-align: center;
+    border-radius: 20px;
+    color: rgb(243, 235, 237);
+    cursor: pointer;
+    margin-left: 10px;
+    border: 1px solid crimson;
+    border-radius: 20%;
+}
+
+
+.footcontent h5   {
+    color: #fff;
+    text-align: left;
+    font-family: ocraext;
+    
+}
+
+.footheader {
+    font-family: ocraext;
+}
+
+.firstfoot  {
+    margin-top: 90px;
+    background-color: rgb(202, 202, 202);
+    text-align: center;
+    
+}
+
+.firstfoot  img {
+    margin: 10px;
+}
+
+/*login view */
+md-input-container:not(.md-input-invalid) > md-icon.name {
+    color: dodgerblue; }
+
+.signtext   {
+    margin-top: 40px;
+    font-style: ocraext;
+}
+.headerbar {
+    margin-top: 30px;
+}
+
+.marginf a    {
+    margin: 30px;
+}
+
+.marginf    {
+    margin-top: 80px;
+}
+
+.bluebut    {
+    width: 200px;
+}
+
+
+
+/* animation */
+
+main.ng-enter   {
+    transition: 0.5s ease all;
+    opacity: 0;
+}
+
+main.ng-enter.ng-enter-active    {
+    opacity: 1;
+}
+
+/*parallax set*/
+.image {
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    max-width: 100%;
+    max-height:300px;
+   
+}
+
+.sellwall {
+    width: 100%;
+}
+
+.sellwall img {
+    width: 100%;
+    max-width: 100%;
+    height: 300px;
+}
+
+.circle {
+    border: 1px solid red;
+}
+
+/*consumer edit*/
+
+.consumerhead   {
+    margin-top: 30px;
+}
+
+.content {
+    font-weight: bold;
+}

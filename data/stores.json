@@ -1,0 +1,25 @@
+[{
+	"name": "Best Spot Supermarket",
+	"src": "img/ikeja.png",
+	"belt": "green"
+}, {
+	"name": "Best Spot Supermarket",
+	"src": "img/ikeja.png",
+	"belt": "green"
+}, {
+	"name": "Best Spot Supermarket",
+	"src": "img/ikeja.png",
+	"belt": "green"
+}, {
+	"name": "justrite Supermarket",
+	"src": "img/just.jpg",
+	"belt": "yellow"
+}, {
+	"name": "Best Spot Supermarket",
+	"belt": "black",
+	"src": "img/spar.jpg"
+}, {
+	"name": "Best Spot Supermarket",
+	"belt": "black",
+	"src": "img/spar.jpg"
+}]
